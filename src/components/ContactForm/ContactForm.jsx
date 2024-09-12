@@ -1,6 +1,6 @@
 import { Formik,Form,Field } from "formik";
 import { useDispatch } from "react-redux";
-import { addContact, } from "../../redux/store";
+import { addContact, } from "../../redux/contactsSlice";
 import { nanoid } from "@reduxjs/toolkit";
 import { useId } from "react";
 import * as Yup from "yup";
